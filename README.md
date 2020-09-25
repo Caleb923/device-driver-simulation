@@ -4,8 +4,14 @@ Accepts read/write requests from a file system, translates them from physical bl
 This program can only be run on linux.
 To run this program download the driver file to your linux machine.
 Open the terminal and change directory into the driver file and then execute the following 3 commands:
-  gcc -Wall -ansi -c driver.c 
-  gcc -odriver driver.o filesys.o disk.o -lm
-  ./driver
+```bash
+gcc -Wall -ansi -c driver.c
+```
+```bash
+gcc -odriver driver.o filesys.o disk.o -lm
+```
+```bash
+./driver
+```
 
 Note: Both compiled object files were given to me to simulate an actual file system and the physical disk. The driver.c file is the code that I wrote to translate between the two compiled object files. 
