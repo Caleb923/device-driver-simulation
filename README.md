@@ -1,7 +1,15 @@
 # device-driver-simulation
 Accepts read/write requests from a file system, translates them from physical block numbers into disk drive cylinder, track, and sector numbers, then instructs a disk device to carry out the read and write requests.
 
+## Installation
 This program can only be run on linux.
+Downloading the C file and make sure you have the build essential packages by running:
+```bash
+sudo apt-get install build-essential
+```
+
+## Usage
+
 To run this program download the driver file to your linux machine.
 Open the terminal and change directory into the driver file and then execute the following 3 commands:
 ```bash
